@@ -1,8 +1,8 @@
 @echo off
 
-echo "ping" >> ping.txt
-
 cd /D D:\DEVELOPER\Projects\GitPing\ping
+
+echo "ping" >> ping.txt
 
 git add .
 git commit -m 'ping'
