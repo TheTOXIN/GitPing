@@ -1,6 +1,9 @@
 @echo off
-echo 'HI'
 
 echo "ping" >> ping.txt
 
-echo 'BY'
+git add .
+git commit -m 'ping'
+git push
+
+echo PING
